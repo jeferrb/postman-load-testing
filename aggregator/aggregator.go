@@ -2,7 +2,7 @@ package aggregator
 
 import (
 	"time"
-	"../common"
+	"github.com/jeferrb/postman-load-testing/common"
 )
 
 type Aggregator struct {

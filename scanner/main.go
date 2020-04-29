@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"regexp"
 	"fmt"
-	"../common"
-	"../logger"
-	"../aggregator"
+	"github.com/jeferrb/postman-load-testing/common"
+	"github.com/jeferrb/postman-load-testing/logger"
+	"github.com/jeferrb/postman-load-testing/aggregator"
 )
 
 var (
