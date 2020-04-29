@@ -6,10 +6,10 @@ import (
 	"time"
 	"strconv"
 	"regexp"
-	"postman-load-testing/common"
-	"postman-load-testing/logger"
 	"fmt"
-	"postman-load-testing/aggregator"
+	"../common"
+	"../logger"
+	"../aggregator"
 )
 
 var (

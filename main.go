@@ -7,13 +7,13 @@ import (
 	"sync"
 	"flag"
 	"os"
-	"postman-load-testing/common"
-	"postman-load-testing/scanner"
-	"postman-load-testing/logger"
 	"strings"
-	"postman-load-testing/aggregator"
-	"postman-load-testing/console_printer"
 	"time"
+	"./common"
+	"./scanner"
+	"./logger"
+	"./aggregator"
+	"./console_printer"
 )
 
 var (

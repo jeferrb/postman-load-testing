@@ -4,12 +4,12 @@ import (
 	"github.com/gosuri/uilive"
 	"fmt"
 	"bytes"
-	"postman-load-testing/aggregator"
 	"github.com/olekukonko/tablewriter"
 	"sort"
 	"io"
-	"postman-load-testing/common"
-	"postman-load-testing/logger"
+	"../aggregator"
+	"../common"
+	"../logger"
 	"time"
 )
 

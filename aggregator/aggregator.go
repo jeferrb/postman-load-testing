@@ -1,8 +1,8 @@
 package aggregator
 
 import (
-	"postman-load-testing/common"
 	"time"
+	"../common"
 )
 
 type Aggregator struct {
