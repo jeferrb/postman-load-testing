@@ -7,9 +7,9 @@ import (
 	"github.com/olekukonko/tablewriter"
 	"sort"
 	"io"
-	"github.com/jeferrb/postman-load-testing/aggregator"
-	"github.com/jeferrb/postman-load-testing/common"
-	"github.com/jeferrb/postman-load-testing/logger"
+	"../aggregator"
+	"../common"
+	"../logger"
 	"time"
 )
 

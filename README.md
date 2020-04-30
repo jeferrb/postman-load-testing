@@ -13,9 +13,10 @@ chmod +x ./installer_linux
 ./installer_linux
 ```
 
+```bash
 export GOBIN=$GOPATH/bin
 export GO111MODULE=auto
-
+```
 
 ### Install required dependencies
 ```bash
@@ -40,7 +41,12 @@ go build
 
 ### Execution
 ```bash
-./postman-load-testing -collection <postman_collection_file_or_url> -environment <postman_environment_file_or_url> -i <number_of_iterations> -n <number_of_threads> -d <delay_between_requests_in_miliseconds>
+./postman-load-testing \
+  -collection <postman_collection_file_or_url> \
+  -environment <postman_environment_file_or_url> \
+  -i <number_of_iterations> \
+  -n <number_of_threads> \
+  -d <delay_between_requests_in_miliseconds>
 ```
 
 ## Arguments
